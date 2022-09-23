@@ -5,7 +5,7 @@ export const keycloak = Keycloak({
     clientId: 'kitdm-services'
 });
 
-export const showServiceUrl = true;
+export const showServiceUrl = false;
 
 export const appDescription = {
     "app-logo":"./images/nfdi4ing.svg",

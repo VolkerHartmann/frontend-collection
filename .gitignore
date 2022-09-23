@@ -8,3 +8,7 @@
 /lib/
 /bin/
 **/application.properties
+
+# Ignore backup files
+**/*~
+**/*.bak
