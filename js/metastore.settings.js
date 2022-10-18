@@ -8,8 +8,8 @@ export const keycloak = Keycloak({
 export const showServiceUrl = false;
 
 export const appDescription = {
-    "app-logo":"./images/nfdi4ing.svg",
-    "app-title":"MetaStore Frontend for NFDI4Ing",
+    "app-logo":"./images/NFFA_EU_Pilot.png",
+    "app-title":"MetaStore Frontend for NFFA EU Pilot",
     "app-subtitle":"Schema and Metadata Management"
 };
 
