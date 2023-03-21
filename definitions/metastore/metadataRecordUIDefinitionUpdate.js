@@ -22,9 +22,9 @@ let uiDefinitionUpdate= {
             "readonly": true
         },
         {
-            "title": "Schema Identifier Type",
+            "title": "Identifier Type",
             "key": "schema.identifierType",
-            "type":"text",
+            "type": "text",
             "readonly": true
         },
         {

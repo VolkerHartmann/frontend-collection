@@ -1,15 +1,15 @@
-export let ajaxBaseUrl = "https://nfdi4ing.datamanager.kit.edu/api/v1/";
+export let ajaxBaseUrl = "https://metarepo.nffa.eu/api/v1/";
 export const keycloak = Keycloak({
-    url: 'https://gateway.datamanager.kit.edu:8443/',
-    realm: 'nfdi4ing',
-    clientId: 'kitdm-services'
+    url: 'https://auth.nffa.eu/auth',
+    realm: 'NEP',
+    clientId: 'metastore'
 });
 
 export const showServiceUrl = false;
 
 export const appDescription = {
-    "app-logo":"./images/nfdi4ing.svg",
-    "app-title":"MetaStore Frontend for NFDI4Ing",
+    "app-logo":"./images/NFFA_EU.png",
+    "app-title":"MetaStore Frontend for NFFA EU Pilot",
     "app-subtitle":"Schema and Metadata Management"
 };
 
