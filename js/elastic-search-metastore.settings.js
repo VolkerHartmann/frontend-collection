@@ -1,17 +1,16 @@
-export let ajaxBaseUrl = "https://demo.datamanager.kit.edu:8443/metastore/api/v1/";
-//export let ajaxBaseUrl = "http://localhost:8081/api/v1/";
+export let ajaxBaseUrl = "https://metarepo.nffa.eu/api/v1/metadata/";
 export const keycloak = Keycloak({
-    url: 'https://gateway.datamanager.kit.edu:8443/',
-    realm: 'dem_testing',
-    clientId: 'kitdm-services'
+    url: 'https://auth.nffa.eu/auth',
+    realm: 'NEP',
+    clientId: 'metastore'
 });
 
 export const showServiceUrl = false;
 export const page_size = 5;
 
 export const appDescription = {
-    "app-logo":"./images/search.jpg",
-    "app-title":"MetaStore Search Demonstrator",
+    "app-logo":"./images/NFFA_EU.png",
+    "app-title":"MetaStore Frontend for NFFA EU Pilot",
     "app-subtitle":"Metadata Search"
 };
 
